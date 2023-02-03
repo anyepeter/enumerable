@@ -3,7 +3,7 @@ module MyEnumerable
   def filter(&block)
     ans = []
     each do |items|
-      result << items if block.call(items) == true
+      ans << items if block.call(items) == true
     end
     ans
   end
