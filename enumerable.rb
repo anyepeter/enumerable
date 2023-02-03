@@ -1,11 +1,11 @@
 module MyEnumerable
   # filter method
   def filter(&block)
-    result = []
+    ans = []
     each do |items|
       result << items if block.call(items) == true
     end
-    result
+    ans
   end
 
   # any method
