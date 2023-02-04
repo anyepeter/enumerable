@@ -100,7 +100,7 @@ cd my-folder
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Test the same funcionality as methods in Enumerable]**
+- [ ] **[implement the frontend ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
